@@ -1,5 +1,5 @@
 #
-# Cookbook:: hashitalks
+# Cookbook::chefcookbook
 # Recipe:: default
 #
 
@@ -22,7 +22,7 @@ directory app_dir do
 end
 
 file "#{app_dir}/index.html" do
-  content "<h1>Hello HashiTalks 2020!<br>
+  content "<h1>welcome to AIG<br>
 Chef Tools & Terraform: Better Together<br>
 #{node['name']}
 </h1>"

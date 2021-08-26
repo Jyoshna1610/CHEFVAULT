@@ -1,0 +1,7 @@
+name 'chefvault'
+
+default_source :supermarket
+
+cookbook 'chefcookbook', path: 'chefvault/cookbook'
+
+run_list 'cookbook'
